@@ -1,0 +1,6 @@
+{
+  "name": "Cp-qa",
+  "tagline": "All content for help CP",
+  "body": "# 如何使用证书文件来打包IPA\r\n\r\n* 取消Automatically manage signing\r\n* 将p12和pp文件安装到电脑\r\n* Code Signing 选择安装的证书\r\n* Provisioning Profile选择安装的PP文件\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
