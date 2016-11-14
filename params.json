@@ -1,6 +1,6 @@
 {
   "name": "Cp-qa",
   "tagline": "All content for help CP",
-  "body": "# 如何使用证书文件来打包IPA\r\n\r\n* 取消Automatically manage signing\r\n* 将p12和pp文件安装到电脑\r\n* Code Signing 选择安装的证书\r\n* Provisioning Profile选择安装的PP文件\r\n",
+  "body": "# 关于图标/截图尺寸的要求\r\n\r\n## 设计要求\r\n\r\n图标设计尽量显著，要加上角标。\r\n截图上可以加设计元素，但一定要能体现真实游戏界面，纯美化的宣传图难以过审。\r\n\r\n## 尺寸要求\r\n\r\n* ICON(1024*1024，无透明通道)一张。\r\n* 产品宣传图两套(iPhone,iPad)，每套5张（尺寸：1242x2208、2048x2732）\r\n\r\n\r\n\r\n# 如何使用证书文件来打包IPA\r\n\r\n我们不提供开发者账号和密码，但会提供打包所需的证书。如果使用XCode打包，需要做一下设置：\r\n\r\n* 取消Automatically manage signing\r\n* 将p12和pp文件安装到电脑\r\n* Code Signing 选择安装的证书\r\n* Provisioning Profile选择安装的PP文件\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
