@@ -32,26 +32,37 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a id="关于图标截图尺寸的要求" class="anchor" href="#%E5%85%B3%E4%BA%8E%E5%9B%BE%E6%A0%87%E6%88%AA%E5%9B%BE%E5%B0%BA%E5%AF%B8%E7%9A%84%E8%A6%81%E6%B1%82" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>关于图标/截图尺寸的要求</h1>
+<a id="cp方需要提供的相关文件说明" class="anchor" href="#cp%E6%96%B9%E9%9C%80%E8%A6%81%E6%8F%90%E4%BE%9B%E7%9A%84%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CP方需要提供的相关文件说明</h1>
 
-<h2>
-<a id="设计要求" class="anchor" href="#%E8%AE%BE%E8%AE%A1%E8%A6%81%E6%B1%82" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>设计要求</h2>
+<ol>
+<li><p>(如果有内支付)请贵方提供内支付配置表，包括内购类型，名称，商品ID，价格等级，描述等等，以及内购的游戏界面截图(必须，苹果审核要看)。内支付的测试沙箱账号，由我方提供。</p></li>
+<li><p>贵方需要提供游戏的ICON(1024*1024，无透明通道)一张。产品宣传图两套(iPhone,iPad)，每套5张（尺寸：1242x2208、2048x2732）,分成ipad，iphone两个文件夹，每套宣传图标好数字号1.2.3.4.5，如有问题方便沟通。</p></li>
+<li>
+<p>ICON可以增加一些角标，比如hot、3D、PK之类的使ICON更突出</p>
 
-<p>图标设计尽量显著，要加上角标。
-截图上可以加设计元素，但一定要能体现真实游戏界面，纯美化的宣传图难以过审。</p>
+<p><img src="https://github.com/NeoGuo/cp-qa/raw/master/images/Picture1.png" alt="image"></p>
+</li>
+<li>
+<p>宣传图两张最好是拼接的效果图</p>
 
-<h2>
-<a id="尺寸要求" class="anchor" href="#%E5%B0%BA%E5%AF%B8%E8%A6%81%E6%B1%82" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>尺寸要求</h2>
-
-<ul>
-<li>ICON(1024*1024，无透明通道)一张。</li>
-<li>产品宣传图两套(iPhone,iPad)，每套5张（尺寸：1242x2208、2048x2732）</li>
-</ul>
+<p><img src="https://github.com/NeoGuo/cp-qa/raw/master/images/Picture2.png" alt="image"></p>
+</li>
+<li><p>需要提供游戏的简介</p></li>
+<li><p>如果游戏需要用户注册，需要提供测试账号(供苹果审核)</p></li>
+</ol>
 
 <h1>
-<a id="如何使用证书文件来打包ipa" class="anchor" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%AF%81%E4%B9%A6%E6%96%87%E4%BB%B6%E6%9D%A5%E6%89%93%E5%8C%85ipa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>如何使用证书文件来打包IPA</h1>
+<a id="qa" class="anchor" href="#qa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Q/A</h1>
 
-<p>我们不提供开发者账号和密码，但会提供打包所需的证书。如果使用XCode打包，需要做一下设置：</p>
+<h3>
+<a id="合作的流程是怎样的" class="anchor" href="#%E5%90%88%E4%BD%9C%E7%9A%84%E6%B5%81%E7%A8%8B%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>合作的流程是怎样的？</h3>
+
+<p>答：我们只做苹果APP STORE正版发行。您需要提供IPA文件，及其他素材和说明，不需要提供开发者账号。</p>
+
+<h3>
+<a id="如何使用证书文件来打包ipa" class="anchor" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%AF%81%E4%B9%A6%E6%96%87%E4%BB%B6%E6%9D%A5%E6%89%93%E5%8C%85ipa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>如何使用证书文件来打包IPA?</h3>
+
+<p>答：我们不提供开发者账号和密码，但会提供打包所需的证书。如果使用XCode打包，需要做一下设置：</p>
 
 <ul>
 <li>取消Automatically manage signing</li>
@@ -59,6 +70,13 @@
 <li>Code Signing 选择安装的证书</li>
 <li>Provisioning Profile选择安装的PP文件</li>
 </ul>
+
+<h3>
+<a id="会提供哪些证书bundle-id是谁提供" class="anchor" href="#%E4%BC%9A%E6%8F%90%E4%BE%9B%E5%93%AA%E4%BA%9B%E8%AF%81%E4%B9%A6bundle-id%E6%98%AF%E8%B0%81%E6%8F%90%E4%BE%9B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>会提供哪些证书？Bundle ID是谁提供？</h3>
+
+<p>答：证书根据您的需要来给出。您需要明确提供您需要的证书种类（测试证书，正式证书，推送证书）。如果需要测试证书，还需要提供您的测试设备的UUID。</p>
+
+<p>Bundle ID和AppStore ID由我方提供，和证书一起提供给贵方。</p>
       </section>
     </div>
 
