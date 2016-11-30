@@ -6,11 +6,11 @@
 
 3. ICON可以增加一些角标，比如hot、3D、PK之类的使ICON更突出
 
- ![image](https://github.com/NeoGuo/cp-qa/raw/master/images/Picture1.png)
+ ![image](http://asostar.com/assets/img/Picture1.png)
 
 4. 宣传图两张最好是拼接的效果图
 
- ![image](https://github.com/NeoGuo/cp-qa/raw/master/images/Picture2.png)
+ ![image](http://asostar.com/assets/img/Picture2.png)
 
 5. 需要提供游戏的简介
 
