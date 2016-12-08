@@ -6,11 +6,11 @@
 
 3. ICON可以增加一些角标，比如hot、3D、PK之类的使ICON更突出
 
- ![image](http://asostar.com/assets/img/Picture1.png)
+ ![image](http://tools.asostar.com/assets/img/Picture1.png)
 
 4. 宣传图第1，2张，最佳效果为一个整体拼合效果。
 
- ![image](http://asostar.com/assets/img/Picture2.png)
+ ![image](http://tools.asostar.com/assets/img/Picture2.png)
 
 5. 需要提供游戏的简介
 
