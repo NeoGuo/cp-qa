@@ -1,0 +1,8 @@
+title: Cp-qa
+description: All content for help CP
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
