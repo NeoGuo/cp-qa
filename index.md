@@ -48,7 +48,7 @@ Bundle ID和AppStore ID由我方提供，和证书一起提供给贵方。
 
 可以参考这篇网文写的解决方案：
 
-http://blog.csdn.net/lk623177086/article/details/52273863
+[IOS 因为ipv6被拒问题解决方案](http://blog.csdn.net/lk623177086/article/details/52273863)
 
 ### 关于第三方支付的原则性约定
 
@@ -78,9 +78,9 @@ http://blog.csdn.net/lk623177086/article/details/52273863
 
 参考文章：
 
-http://www.72g.com/news/165444.html
+[AppStore热更新被禁 对游戏有着怎样影响](http://www.72g.com/news/165444.html)
 
-http://tech.163.com/17/0309/13/CF3EPTS900097U7R.html
+[苹果向热更新下达最后通牒 是什么导致了此事？](http://tech.163.com/17/0309/13/CF3EPTS900097U7R.html)
 
 解决方案目前主要是两点：
 
